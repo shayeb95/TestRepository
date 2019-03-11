@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1032862558698848}
+  m_IsPrefabAsset: 1
+--- !u!1 &1032862558698848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4441587170999148}
+  - component: {fileID: 114410681465778036}
+  - component: {fileID: 61048944499057304}
+  m_Layer: 8
+  m_Name: platformObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4441587170999148
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032862558698848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.915037, y: -0.00793612, z: -0.19432944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61048944499057304
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032862558698848}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3, y: -1.35}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6, y: 2.7}
+  m_EdgeRadius: 0
+--- !u!114 &114410681465778036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032862558698848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8d936cd8397334f9c72b6b09ba3263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 5
+  y: 2
+  platformTile: {fileID: 1423520864732870, guid: 34b5eb506229e124d9f86382b23bd325,
+    type: 2}
+  top:
+  - {fileID: 1931833851581070, guid: 9cb3f86e7cb5c744c80019f6641b043d, type: 2}
+  - {fileID: 1701214055886848, guid: 6ef88be73f1568c48b7463c1a26ba9b2, type: 2}
+  - {fileID: 1307542179983732, guid: 59a3ec20d63fa0e4fa4b5324e52eb4d9, type: 2}
+  middle:
+  - {fileID: 1251087232091050, guid: aa6fe2634512a09428a7c1e40ff51d31, type: 2}
+  - {fileID: 1257713464856150, guid: 09da9675132492546b95c5743106213e, type: 2}
+  - {fileID: 1114353375049482, guid: d83e013853f323948b8350e0d321f982, type: 2}
+  bottom:
+  - {fileID: 1236401072706992, guid: c0ec1386694022b4e8399a05d39963dd, type: 2}
+  - {fileID: 1373744265954668, guid: e48528770d87f8940be7a45fb2f8ac4e, type: 2}
+  - {fileID: 1150667060453424, guid: 1a45c7e2d5c39e04b97d68e172783dc5, type: 2}
+  width: 1.2
+  height: 1.35
+  instantiatedTiles: []
